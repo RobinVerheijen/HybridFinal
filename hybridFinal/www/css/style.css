@@ -18,3 +18,12 @@
     color: #8638FF !important;
     /*border-top: 3px solid #8638FF !important;*/
 }
+
+.scroll {
+    height: 100%;
+}
+ 
+#map {
+    width: 100%;
+    height: 100%;
+}
