@@ -1,1 +1,20 @@
-/* Empty. Add your own CSS if you like */
+.bar {
+    border-color: #8638FF !important;
+    background-color: #8638FF !important;
+    background: #8638FF !important;
+    background-image: none !important;
+}
+.tabs {
+    border-color: white !important;
+    background-color: white !important;
+    background: white !important;
+    background-image: none !important;
+}
+.tab-item {
+    color: #d9d9d9 !important;
+}
+.tab-item-active {
+    border-color: #8638FF !important;
+    color: #8638FF !important;
+    /*border-top: 3px solid #8638FF !important;*/
+}
