@@ -41,7 +41,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   .state('tab.home', {
     url: '/home',
     views: {
-      'tab-dash': {
+      'tab-home': {
         templateUrl: 'templates/tab-home.html'
       }
     }
@@ -50,7 +50,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   .state('tab.map', {
       url: '/map',
       views: {
-        'tab-chats': {
+        'tab-map': {
           templateUrl: 'templates/tab-map.html',
           controller: 'MapCtrl'
         }
@@ -60,20 +60,20 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   .state('tab.favorites', {
     url: '/favorites',
     views: {
-      'tab-account': {
+      'tab-favorites': {
         templateUrl: 'templates/tab-favorites.html'
       }
     }
   })
-  
+
   .state('tab.settings', {
       url: '/settings',
       views: {
-        'tab-chats': {
+        'tab-settings': {
           templateUrl: 'templates/tab-settings.html'
         }
       }
-    })  
+    })
     ;
 
   // if none of the above states are matched, use this as the fallback
