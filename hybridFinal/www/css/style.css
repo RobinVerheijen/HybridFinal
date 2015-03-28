@@ -9,6 +9,7 @@
     background-color: white !important;
     background: white !important;
     background-image: none !important;
+    border-top: 1px solid #d9d9d9 !important;
 }
 .tab-item {
     color: #d9d9d9 !important;
